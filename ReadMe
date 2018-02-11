@@ -1,0 +1,9 @@
+Two scripts that I threw together to disable groups or re-enable groups in Office 365.
+
+These scripts go along with my blog post about disabling Groups in Office 365 tenants:
+https://wp.me/p37zvA-e8
+
+To use the scripts, you'll have to have the Azure Active Directory Module for Windows PowerShell
+installed. Instructions for this can be found in my blog post for remote PowerShell connections to
+Office 365:
+https://wp.me/p37zvA-b
