@@ -17,4 +17,4 @@ Connect-AzureAD -Credential $cred
 #Get the custom policy put in place by Disable-Groups.ps1
 $Policy = Get-AzureADDirectorySetting -All $True | where-object {$_.DisplayName -eq "Group.Unified"}
 #Remove the custom policy put in place by Disable-Groups.ps1
-Remove-AzureADDirectorySetting –Id $Policy.Id
+Remove-AzureADDirectorySetting -Id $Policy.Id
